@@ -1,4 +1,4 @@
-# SpringBootCaptchaProgramming
+![Screenshot (23)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/5e22b758-8fad-45db-a28e-ac8c2a0fe678)# SpringBootCaptchaProgramming
 SpringBoot Sample Captcha programming with the help of MVC.
 ![image](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/d2229590-ae5d-49df-b8af-54c35f9df695)
 Model view Controller
@@ -25,6 +25,20 @@ Model view Controller
 #### Application for Recaptcha
 
 <pre>
-Spring ReCaptcha same as above But it wont supports on localhost
+Spring ReCaptcha same as above but We need to follow some instructions like site-Key and seceret-key for using reCaptcha
+&#8594; Here we no need to write any logic for recaptcha Example :in Service Layer or Controller no need to write
+&#8594; Write simple CURD operation same as above i.e 1st application
+&#8594; In the Register page, it is necessary to first register on the reCAPTCHA portal before incorporating the secret key. 
+&#8594;  As an example, the following code snippet should be added to the Register page after obtaining the required registration on the reCAPTCHA portal.
+<div class="row">
+						<div class="col-2">
+							<label>VALIDATE</label>
+						</div>
+						<div class="col-4">
+					      <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
+"></div>
+						</div>
+					</div>
+  
 </pre>
-![Screenshot (22)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/83773426-74a0-4989-bc61-ed4c39487d60)
+![Screenshot (23)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/dbb82228-83f1-4630-83e1-4776c09c1f08)
