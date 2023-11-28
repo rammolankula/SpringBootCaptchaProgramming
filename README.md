@@ -1,4 +1,4 @@
-![Screenshot (23)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/5e22b758-8fad-45db-a28e-ac8c2a0fe678)# SpringBootCaptchaProgramming
+# SpringBootCaptchaProgramming
 SpringBoot Sample Captcha programming with the help of MVC.
 ![image](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/d2229590-ae5d-49df-b8af-54c35f9df695)
 Model view Controller
@@ -30,6 +30,5 @@ Spring ReCaptcha same as above but We need to follow some instructions like site
 &#8594; In the Register page, it is necessary to first register on the reCAPTCHA portal before incorporating the secret key. 
 &#8594;  As an example, the following code snippet should be added to the Register page after obtaining the required registration on the reCAPTCHA portal.
   ![Recaptcha](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/cc9400ab-873a-47d8-bfc5-efc2bbb5e51f)
-
 </pre>
 ![Screenshot (23)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/dbb82228-83f1-4630-83e1-4776c09c1f08)
