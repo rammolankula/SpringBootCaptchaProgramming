@@ -23,20 +23,13 @@ Model view Controller
 
 
 #### Application for Recaptcha
-
 <pre>
 Spring ReCaptcha same as above but We need to follow some instructions like site-Key and seceret-key for using reCaptcha
 &#8594; Here we no need to write any logic for recaptcha Example :in Service Layer or Controller no need to write
 &#8594; Write simple CURD operation same as above i.e 1st application
 &#8594; In the Register page, it is necessary to first register on the reCAPTCHA portal before incorporating the secret key. 
 &#8594;  As an example, the following code snippet should be added to the Register page after obtaining the required registration on the reCAPTCHA portal.
-<div class="row">
-  <div class="col-2">
-  <label>VALIDATE</label>
-</div>
-<div class="col-4">
-  <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-</div>
-</div>
+  ![Recaptcha](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/cc9400ab-873a-47d8-bfc5-efc2bbb5e51f)
+
 </pre>
 ![Screenshot (23)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/dbb82228-83f1-4630-83e1-4776c09c1f08)
