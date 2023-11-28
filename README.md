@@ -31,14 +31,12 @@ Spring ReCaptcha same as above but We need to follow some instructions like site
 &#8594; In the Register page, it is necessary to first register on the reCAPTCHA portal before incorporating the secret key. 
 &#8594;  As an example, the following code snippet should be added to the Register page after obtaining the required registration on the reCAPTCHA portal.
 <div class="row">
-						<div class="col-2">
-							<label>VALIDATE</label>
-						</div>
-						<div class="col-4">
-					      <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
-"></div>
-						</div>
-					</div>
-  
+  <div class="col-2">
+  <label>VALIDATE</label>
+</div>
+<div class="col-4">
+  <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+</div>
+</div>
 </pre>
 ![Screenshot (23)](https://github.com/rammolankula/SpringBootCaptchaProgramming/assets/53596726/dbb82228-83f1-4630-83e1-4776c09c1f08)
